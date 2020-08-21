@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="juneau-petstore-server:war">
+    <output-path>$PROJECT_DIR$/juneau-petstore-server/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>juneau-petstore-server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="juneau-petstore-server-8.1.2-SNAPSHOT.war">
+      <element id="artifact" artifact-name="juneau-petstore-server:war exploded" />
+    </root>
+  </artifact>
+</component>
